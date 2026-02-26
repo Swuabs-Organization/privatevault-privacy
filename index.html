@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivateVault Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 3px solid #1a73e8;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #1a73e8;
+            margin-top: 30px;
+        }
+        .meta {
+            background-color: #f0f4f8;
+            padding: 15px;
+            border-left: 4px solid #1a73e8;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        .meta p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .highlight {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        .disclaimer {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            border-radius: 4px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        .contact-box {
+            background-color: #f0f4f8;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 15px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f0f4f8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        table th {
+            background-color: #f0f4f8;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #1a73e8;
+        }
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PrivateVault Privacy Policy</h1>
+
+        <div class="meta">
+            <p><strong>Last Updated:</strong> February 26, 2026</p>
+            <p><strong>Effective Date:</strong> February 26, 2026</p>
+            <p><strong>App:</strong> PrivateVault</p>
+            <p><strong>Developer:</strong> swaub</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>PrivateVault is a fully offline, zero-cloud password manager for Android. This privacy policy explains how we handle your data—or more accurately, why we don't collect, store, transmit, or share any data about you.</p>
+            <p>We are committed to your privacy and have designed PrivateVault to be the most private password manager available. Your passwords and sensitive information remain completely under your control, encrypted on your device, with no access from us or any third party.</p>
+        </div>
+
+        <div class="highlight">
+            <strong>Key Commitment:</strong> PrivateVault does not collect, process, store, transmit, or share any personal data. Ever.
+        </div>
+
+        <div class="section">
+            <h2>2. What Data We Collect</h2>
+            <p><strong>We collect absolutely no data.</strong></p>
+            <p>PrivateVault does not:</p>
+            <ul>
+                <li>Collect analytics or usage statistics</li>
+                <li>Track your activity or behavior</li>
+                <li>Record what passwords you store</li>
+                <li>Monitor what websites or apps you access</li>
+                <li>Collect your email address, name, or contact information</li>
+                <li>Use telemetry or crash reporting</li>
+                <li>Display or serve advertisements</li>
+                <li>Require account creation, registration, or sign-up</li>
+                <li>Collect device identifiers or hardware information</li>
+            </ul>
+            <p>Because the app is entirely offline and self-contained, there is no mechanism to transmit data to our servers or any third-party service.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. How Your Data Is Stored</h2>
+            <p>All your passwords and sensitive information are:</p>
+            <ul>
+                <li><strong>Stored locally:</strong> Exclusively on your Android device, never on the cloud or any remote server</li>
+                <li><strong>Encrypted:</strong> Protected with AES-256 encryption using SQLCipher</li>
+                <li><strong>Key derivation:</strong> Your master password is processed using Argon2id, a modern key derivation function resistant to GPU and ASIC attacks</li>
+                <li><strong>Never transmitted:</strong> Your encrypted data never leaves your device under any circumstances</li>
+            </ul>
+            <p>No one—not us, not Google, not your network administrator—can access your passwords without your device and your master password.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Android Permissions</h2>
+            <p>PrivateVault requests only the permissions necessary for its core functionality. Here's what permissions are used and why:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Purpose</th>
+                        <th>Data Accessed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>INTERNET</td>
+                        <td>Explicitly blocked to prevent accidental data transmission</td>
+                        <td>None</td>
+                    </tr>
+                    <tr>
+                        <td>USE_BIOMETRIC</td>
+                        <td>Enable biometric authentication (fingerprint, face recognition)</td>
+                        <td>Only success/failure response; biometric data remains in Android's secure enclave</td>
+                    </tr>
+                    <tr>
+                        <td>READ_EXTERNAL_STORAGE</td>
+                        <td>Allow CSV import from files on your device</td>
+                        <td>Only files you explicitly choose to import</td>
+                    </tr>
+                    <tr>
+                        <td>WRITE_EXTERNAL_STORAGE</td>
+                        <td>Allow CSV export to files on your device</td>
+                        <td>Only the data you explicitly choose to export</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>5. Biometric Authentication</h2>
+            <p>PrivateVault supports Android biometric authentication (fingerprint, face recognition) for convenient access to your vault.</p>
+            <ul>
+                <li><strong>We do not access biometric data.</strong> Biometric authentication is handled entirely by Android's native BiometricPrompt API</li>
+                <li>Your fingerprints and facial data never leave Android's secure hardware enclave</li>
+                <li>PrivateVault only receives a success or failure response from the biometric system</li>
+                <li>If biometric authentication fails, you can unlock with your master password</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Autofill Framework</h2>
+            <p>PrivateVault integrates with Android's Autofill Framework for convenient password entry.</p>
+            <ul>
+                <li>When enabled, the app can provide saved passwords to apps and browsers that request autofill</li>
+                <li>Autofill only reads from your locally-stored, encrypted vault</li>
+                <li>No passwords, metadata, or autofill requests are transmitted anywhere</li>
+                <li>You can disable autofill at any time in Android Settings</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Import and Export</h2>
+            <p>PrivateVault allows you to import passwords from CSV files and export your vault to CSV format for backup purposes.</p>
+            <ul>
+                <li><strong>Local operations only:</strong> All import and export operations are performed locally on your device</li>
+                <li><strong>Not transmitted:</strong> CSV files remain on your device and are never automatically uploaded or shared</li>
+                <li><strong>Your responsibility:</strong> Be cautious when exporting to CSV, as the exported file contains unencrypted data. Ensure it is stored securely</li>
+                <li>You control where imported/exported files are stored on your device</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Internet Connectivity</h2>
+            <p>PrivateVault is designed to operate completely offline:</p>
+            <ul>
+                <li>The app does not require an internet connection to function</li>
+                <li>PrivateVault will not attempt to connect to the internet</li>
+                <li>Cleartext traffic is explicitly blocked in the app's network configuration</li>
+                <li>You can use PrivateVault with Wi-Fi disabled or in airplane mode</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>9. Third-Party Services</h2>
+            <p>PrivateVault does not use any third-party services that could collect or access your data.</p>
+            <ul>
+                <li>No cloud storage providers (Google Drive, Dropbox, iCloud, etc.)</li>
+                <li>No analytics platforms (Firebase, Google Analytics, Mixpanel, etc.)</li>
+                <li>No crash reporting services (Crashlytics, Sentry, etc.)</li>
+                <li>No advertisement networks</li>
+                <li>No data brokers or service providers</li>
+            </ul>
+            <p>The only external entity involved is Google Play, which distributes the app. Google Play's privacy terms are separate and available on their website.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Google Play Store</h2>
+            <p>PrivateVault is distributed through the Google Play Store as a one-time purchase ($3.99).</p>
+            <ul>
+                <li>Google Play collects purchase and device information according to its separate privacy policy</li>
+                <li>PrivateVault itself does not receive this information from Google</li>
+                <li>PrivateVault does not require accounts, subscriptions, or any ongoing relationship with Google or swaub</li>
+                <li>Google Play policies are their responsibility; your password data is only PrivateVault's responsibility</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>11. No User Accounts</h2>
+            <p>PrivateVault does not require or maintain user accounts:</p>
+            <ul>
+                <li>No registration or sign-up process</li>
+                <li>No login credentials or email address</li>
+                <li>No user ID or account recovery</li>
+                <li>No subscription or account management needed</li>
+            </ul>
+            <p>You own your data completely. There is no account to delete with us because we have no account for you.</p>
+        </div>
+
+        <div class="section">
+            <h2>12. Children's Privacy (COPPA)</h2>
+            <p>PrivateVault does not knowingly collect information from children under 13 years old.</p>
+            <ul>
+                <li>The app does not collect any personal information from any user</li>
+                <li>No content is targeted at or marketed to children</li>
+                <li>Parents and guardians should be aware that PrivateVault stores sensitive passwords and should only be used by authorized users</li>
+                <li>We recommend supervision if children have access to devices with PrivateVault installed</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>13. California Privacy Rights (CCPA/CPRA)</h2>
+            <p>Under California law, consumers have the right to know what data is collected, to delete collected data, and to opt out of data sales.</p>
+            <p>Since PrivateVault collects no personal information:</p>
+            <ul>
+                <li>There is no data for us to disclose</li>
+                <li>There is nothing for you to request deletion of</li>
+                <li>There is no data to sell or share</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>14. GDPR Compliance (European Union)</h2>
+            <p>Under the General Data Protection Regulation (GDPR), data controllers must provide transparency about personal data processing.</p>
+            <p>PrivateVault does not process any personal data:</p>
+            <ul>
+                <li>We do not collect personal information</li>
+                <li>We do not process data on your device (all processing is your device's local operation)</li>
+                <li>There are no data processing agreements, data retention policies, or data transfers because no data is processed</li>
+                <li>We do not implement GDPR rights processes (access, deletion, portability) because we have no data to provide or delete</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>15. Data Breaches and Security</h2>
+            <p>Because PrivateVault stores no data centrally and has no servers, there is no central database to breach.</p>
+            <ul>
+                <li>Your data is only on your device, encrypted with AES-256</li>
+                <li>A breach of PrivateVault's systems (such as GitHub or Google Play) would not expose your passwords</li>
+                <li>The security of your vault depends on the security of your device and the strength of your master password</li>
+                <li>We recommend: use a strong, unique master password; keep your Android device updated; use device-level security features</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>16. Changes to This Privacy Policy</h2>
+            <p>We may update this privacy policy to reflect changes in the app or applicable laws.</p>
+            <ul>
+                <li>We will post the updated policy here with a new "Last Updated" date</li>
+                <li>If we make material changes to how we handle your data (we don't collect any, so this is unlikely), we will provide notice</li>
+                <li>Your continued use of PrivateVault after changes are posted constitutes acceptance of the updated policy</li>
+                <li>Because this policy reflects our fundamental design principle of zero data collection, major changes are unlikely unless the app's architecture changes</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>17. Contact Us</h2>
+            <p>For questions about this privacy policy, contact swaub via GitHub:</p>
+            <div class="contact-box">
+                <p><a href="https://github.com/swaub">https://github.com/swaub</a></p>
+            </div>
+            <p>Since PrivateVault does not collect any data, we cannot respond to data access, deletion, or portability requests (there is no data to provide). However, we welcome feedback about privacy and security concerns.</p>
+        </div>
+
+        <div class="section">
+            <h2>18. Summary</h2>
+            <p>PrivateVault's privacy promise is simple:</p>
+            <div class="highlight">
+                <ul>
+                    <li>No data is collected from you</li>
+                    <li>No data is stored on our servers</li>
+                    <li>No data is transmitted anywhere</li>
+                    <li>No data is shared with anyone</li>
+                    <li>Your passwords stay on your device, encrypted, forever</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="disclaimer">
+            <strong>Disclaimer:</strong> This privacy policy is provided for informational purposes. It reflects the design and functionality of PrivateVault as of the effective date. The app's privacy practices comply with applicable laws including GDPR, CCPA, and COPPA through its design of zero data collection. For legal advice specific to your situation, consult with a qualified attorney. PrivateVault is provided as-is; while we take security seriously, users are responsible for maintaining the security of their device and master password.
+        </disclaimer>
+    </div>
+</body>
+</html>
